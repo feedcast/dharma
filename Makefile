@@ -13,3 +13,11 @@ spec:
 
 .PHONY: test
 test: spec
+
+.PHONY: compose
+compose:
+	docker-compose up -d
+
+.PHONY: decompose
+decompose:
+	docker-compose stop
