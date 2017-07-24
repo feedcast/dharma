@@ -1,5 +1,5 @@
 # 👩🏻‍🔬Laboratorium [![Build Status](https://travis-ci.org/marceloboeira/laboratorium.svg?branch=master)](https://travis-ci.org/marceloboeira/laboratorium) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-> AB Tests as a service
+> AB testing as a service
 
 ## Setup
 
