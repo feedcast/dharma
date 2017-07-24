@@ -1,6 +1,8 @@
 # 👩🏻‍🔬Laboratorium
 > AB Tests as a service
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Setup
 
 Use `make install` to install the ruby dependencies.

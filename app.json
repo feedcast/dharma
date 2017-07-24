@@ -1,0 +1,9 @@
+{
+  "name": "Laboratorium",
+  "description": "AB testing as a service",
+  "keywords": [ "ab", "test", "experiments", "redis", "ruby" ],
+  "repository": "https://github.com/marceloboeira/laboratorium",
+  "success_url": "/dasboard",
+  "image": "heroku/ruby",
+  "addons": [ "openredis" ],
+}
