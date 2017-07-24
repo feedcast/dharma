@@ -1,0 +1,12 @@
+dist: trusty
+sudo: required
+cache: bundler
+
+services:
+  - redis-server
+
+install:
+  - make
+
+script:
+  - make test
