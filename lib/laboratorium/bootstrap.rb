@@ -18,5 +18,4 @@ module Laboratorium
       lookup_by: ->(context) { context.send(:user_id) }
     )
   end
-
 end
