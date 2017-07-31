@@ -5,5 +5,5 @@
   "repository": "https://github.com/marceloboeira/laboratorium",
   "success_url": "/dasboard",
   "image": "heroku/ruby",
-  "addons": [ "openredis" ],
+  "addons": [ "heroku-redis" ],
 }
