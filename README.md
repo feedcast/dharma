@@ -7,7 +7,7 @@ Use `make install` to install the ruby dependencies.
 
 ### Environment variables
 
-`REDIS_URI` - URI to connect to Redis. e.g.: `redis://127.0.0.1:6379`
+`REDIS_URL` - URI to connect to Redis. e.g.: `redis://127.0.0.1:6379`
 
 ## Showtime
 

@@ -3,7 +3,7 @@ module Laboratorium
   require_relative "api"
 
   ::Split.configure do |config|
-    config.redis = ENV.fetch("REDIS_URI", "redis://127.0.0.1:6379")
+    config.redis = ENV.fetch("REDIS_URL", "redis://127.0.0.1:6379")
 
     # Allow Redis to fail, force the control option when it does
     config.db_failover = true
