@@ -6,7 +6,7 @@ install:
 
 .PHONY: start
 start: 
-	bundle exec rackup -p $(PORT)
+	foreman start
 
 .PHONY: spec
 spec:

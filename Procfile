@@ -1,1 +1,1 @@
-web: make start
+web: bundle exec rackup -p $PORT
