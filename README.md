@@ -21,9 +21,9 @@ Finally, run `make start` to start the server.
 
 The server will start at `http://localhost:4815` by default.
 
+The api will start at `http://localhost:4815/experiments` by default, check the endpoints section for more info.
 The dashboard will start at `http://localhost:4815/dashboard` by default.
 
-The api is running under `/api`, same port as the core.
 
 #### Endpoints
 
