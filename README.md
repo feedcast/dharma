@@ -7,6 +7,10 @@
 
 [![Build Status](https://travis-ci.org/feedcast/dharma.svg?branch=master)](https://travis-ci.org/feedcast/dharma) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Contributing
+
+Please consider reading our [Contribution Guide](https://github.com/feedcast/contributing) before anything else.
+
 ## Setup
 
 Use `make install` to install the ruby dependencies.
