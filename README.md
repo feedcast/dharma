@@ -17,7 +17,10 @@ Use `make install` to install the ruby dependencies.
 
 ### Environment variables
 
-`REDIS_URL` - URI to connect to Redis. e.g.: `redis://127.0.0.1:6379`
+- `PORT` - HTTP port for the server, e.g.: `4815`
+- `REDIS_URL` - URI to connect to Redis. e.g.: `redis://127.0.0.1:6379`
+- `DHARMA_USER` - User for the dashboard auth. e.g.: `admin`
+- `DHARMA_PASSWORD` - Password for the dashboard auth. e.g.: `lost`
 
 ## Showtime
 

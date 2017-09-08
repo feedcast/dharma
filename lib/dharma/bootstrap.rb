@@ -1,5 +1,6 @@
 module Dharma
   require "split"
+  require "split/dashboard"
   require_relative "api"
 
   ::Split.configure do |config|
@@ -17,5 +18,9 @@ module Dharma
     config.persistence = Split::Persistence::RedisAdapter.with_config(
       lookup_by: ->(context) { context.send(:user_id) }
     )
+  end
+
+  ::Split::Dashboard.use(Rack::Auth::Basic) do |user, password|
+    user == ENV["DHARMA_USER"] && password == ENV["DHARMA_PASSWORD"]
   end
 end

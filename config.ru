@@ -1,6 +1,5 @@
 require_relative "lib/dharma/bootstrap"
 require_relative "lib/dharma/api"
-require "split/dashboard"
 require "rack/rewrite"
 
 use Rack::Rewrite do
