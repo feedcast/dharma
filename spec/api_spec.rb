@@ -19,6 +19,10 @@ RSpec.describe "Dharma API" do
         get "/experiments", experiment: "foo", control: colors.first, alternatives: colors, identifier: "a23"
       end
 
+      it "has application/json as a content type" do
+        expect(last_response.header["Content-Type"]).to eq("application/json")
+      end
+
       it "returns 200" do
         expect(last_response).to be_ok
       end

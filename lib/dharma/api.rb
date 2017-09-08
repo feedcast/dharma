@@ -4,6 +4,10 @@ module Dharma
   class API < Sinatra::Base
     helpers Split::Helper
 
+    before do
+      content_type "application/json"
+    end
+
     get "/experiments" do
       experiment = params[:experiment]
       control = params[:control]
