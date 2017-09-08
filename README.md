@@ -1,5 +1,11 @@
-# 👩🏻‍🔬Dharma [![Build Status](https://travis-ci.org/feedcast/dharma.svg?branch=master)](https://travis-ci.org/feedcast/dharma) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-> The Podcast A/B Testing Laboratory
+<p align="center">
+  <img src="https://raw.githubusercontent.com/feedcast/dharma/master/docs/logo.png" width="300">
+  <p align="center">👩🏻‍🔬 The Podcast A/B Testing Laboratory<p>
+</p>
+
+## Badges
+
+[![Build Status](https://travis-ci.org/feedcast/dharma.svg?branch=master)](https://travis-ci.org/feedcast/dharma) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Setup
 
