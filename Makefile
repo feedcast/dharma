@@ -1,6 +1,7 @@
 .PHONY: install
 install:
 	gem install foreman
+	cp .env.example .env
 	bundle install
 
 .PHONY: start
