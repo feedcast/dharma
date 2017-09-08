@@ -13,9 +13,9 @@ Use `make install` to install the ruby dependencies.
 
 Finally, run `make start` to start the server.
 
-The server will start at `http://localhost:5000` by default.
+The server will start at `http://localhost:4815` by default.
 
-The dashboard will start at `http://localhost:5000/dashboard` by default.
+The dashboard will start at `http://localhost:4815/dashboard` by default.
 
 The api is running under `/api`, same port as the core.
 
