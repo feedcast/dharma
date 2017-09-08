@@ -4,6 +4,7 @@ ruby "2.4.1"
 # Server
 gem "sinatra", "2"
 gem "puma", "~> 3"
+gem "rack-rewrite", "~> 1.5.0"
 
 # AB Testing
 gem "redis"
