@@ -1,6 +1,6 @@
 require "sinatra/base"
 
-module Laboratorium
+module Dharma
   class API < Sinatra::Base
     helpers Split::Helper
 

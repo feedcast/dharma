@@ -1,5 +1,5 @@
-# 👩🏻‍🔬Laboratorium [![Build Status](https://travis-ci.org/marceloboeira/laboratorium.svg?branch=master)](https://travis-ci.org/marceloboeira/laboratorium) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-> AB testing as a service
+# 👩🏻‍🔬Dharma [![Build Status](https://travis-ci.org/feedcast/dharma.svg?branch=master)](https://travis-ci.org/feedcast/dharma) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+> The Podcast A/B Testing Laboratory
 
 ## Setup
 

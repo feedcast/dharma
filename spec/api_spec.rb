@@ -1,9 +1,9 @@
 require "spec_helper"
 
-RSpec.describe "Laboratorium API" do
+RSpec.describe "Dharma API" do
   include Rack::Test::Methods
 
-  let(:app) { Laboratorium::API }
+  let(:app) { Dharma::API }
 
   before do
     # Ensure the redis instance is clean

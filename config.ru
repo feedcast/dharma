@@ -1,6 +1,8 @@
-require_relative "lib/laboratorium/bootstrap"
-require_relative "lib/laboratorium/api"
+require_relative "lib/dharma/bootstrap"
+require_relative "lib/dharma/api"
 require "split/dashboard"
 
-run Rack::URLMap.new("/api" =>  Laboratorium::API.new,
-                     "/dashboard" => Split::Dashboard.new)
+run Rack::URLMap.new(
+  "/api" => Dharma::API.new,
+  "/dashboard" => Split::Dashboard.new
+)

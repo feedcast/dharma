@@ -1,4 +1,4 @@
-module Laboratorium
+module Dharma
   require "split"
   require_relative "api"
 

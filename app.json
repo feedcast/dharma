@@ -1,8 +1,8 @@
 {
-  "name": "Laboratorium",
+  "name": "Dharma",
   "description": "AB testing as a service",
   "keywords": [ "ab", "test", "experiments", "redis", "ruby" ],
-  "repository": "https://github.com/marceloboeira/laboratorium",
+  "repository": "https://github.com/feedcast/dharma",
   "success_url": "/dasboard",
   "image": "heroku/ruby",
   "addons": [ "heroku-redis" ],

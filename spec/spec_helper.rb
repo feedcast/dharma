@@ -1,6 +1,6 @@
 ENV["RACK_ENV"] = "test"
 
-require "laboratorium/bootstrap"
+require "dharma/bootstrap"
 require "rack/test"
 
 RSpec.configure do |config|
